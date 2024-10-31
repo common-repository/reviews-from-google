@@ -1,0 +1,44 @@
+Version 3.1
+
+Removed license key field
+
+Version 3.0
+
+Combined Premium/Free versions -- free for all
+Removed premium updating functionality
+
+Version 2.8
+
+Fixed bug with hide images functionality
+
+Version 2.7
+
+Download the reviews into a table in the WordPress Database
+Display reviews directly from the Database
+Added option to delete plugin data
+Added option to import new reviews from Google
+Added cronjob to import new reviews every 24 hours
+Added a new template to display 2 reviews per column
+Added Read More/Less functionality for reviews above 140 characters
+
+Version 2.6
+
+Moved the Google Reviews Option from Tools to Settings
+
+Version 2.5
+
+Added Cache
+Added option to enable/disable cache as required.
+Hide Images option is now yes/no instead of checkbox
+Removed a test template
+
+Version 2.4
+
+Fixed Bug: View All Link color was not working as per settings in the widget.
+
+Version 2.3
+
+Added changelog
+Added Google Reviews Widget
+Created a Class for Google Reviews to Interact with the API
+Made API key field a password field

@@ -1,0 +1,11 @@
+.greviews-menu {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 2px 3px 10px #222;
+  margin: 10px 0;
+}
+
+.greviews-alert {
+  color: #950000;
+  font-weight: bold;
+}

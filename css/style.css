@@ -1,0 +1,163 @@
+.greviews-container {
+  max-width: 1280px;
+}
+
+.greviews-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.greviews-rating {
+  margin-right: 5px;
+}
+
+.greview-columns-container, .greview-fullwidth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.greview-columns-container .greview-container {
+  width: calc(50% - 20px);
+}
+
+.greview-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 3px;
+  /* background: #f6f1f1; */
+  box-shadow: 1px 2px 10px #222;
+  align-items: center;
+  text-align: center;
+}
+
+.greview-container > div, .greview-container > a, .greview-container img {
+  margin-bottom: 5px;
+}
+
+.greview-container > div, .greview-container > a {
+  width: 100%;
+}
+
+.greviews-widget-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greviews-header > div, .greviews-widget-header > div {
+   margin: 10px 0;
+}
+
+.greviews-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.greview-image {
+  width: 128px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.greview-relative-time {
+  margin-top: 3px;
+}
+
+.greview-reviewer {
+  font-size: 22px;
+  text-align: center;
+}
+
+.greview-rating-container {
+  display: block;
+  flex-direction: row;
+  flex: 1;
+}
+
+.greview-star-icon {
+  color: #ddd;
+  font-size: 2em;
+  position: relative;
+}
+
+.greview-star-icon.full:before {
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  /* color: #d0b624; */
+  content: '\2605'; /* Full star in UTF-8 */
+  position: absolute;
+  left: 0;
+}
+.greview-star-icon.half:before {
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  /* color: #d0b624; */
+  content: '\2605'; /* Full star in UTF-8 */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+@-moz-document url-prefix() { /* Firefox Hack :( */
+  .greview-star-icon {
+    font-size: 50px;
+    line-height: 34px;
+  }
+}
+
+.greviews-footer {
+  display: flex;
+  width: 100%;
+}
+
+.greviews-more-link {
+  display: inherit;
+  justify-content: flex-end;
+  font-size: 22px;
+  width: 100%;
+}
+
+.greviews-more-link-widget {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+}
+
+.greviews-poweredby {
+  display: inherit;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.greviews-poweredby-widget {
+  display: inherit;
+  text-align: center;
+  width: 100%;
+}
+
+.greviews-poweredby img {
+  align-self: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .greview-columns-container { 
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .greview-fullwidth-container .greview-container {
+    flex: 1;
+    max-width: 300px;
+  }
+}
